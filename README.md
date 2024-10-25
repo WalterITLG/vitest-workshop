@@ -104,9 +104,3 @@ Aunque **Vitest** y **Jest** comparten muchas similitudes, hay algunas diferenci
 4. **Pruebas Interactivas**: Usa el modo watch de Vitest para probar de forma interactiva mientras desarrollas.
 
 Siéntete libre de modificar y ampliar los ejemplos en este repositorio para explorar más sobre pruebas unitarias con Vitest.
-
----
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
