@@ -9,4 +9,7 @@ describe("sum function", () => {
   it("should handle negative numbers", () => {
     expect(sum(-1, 2)).toBe(1);
   });
+  it("should throw an error if inputs are not numbers", () => {
+    expect(() => sum("a", 3)).toThrow("Invalid input");
+  });
 });

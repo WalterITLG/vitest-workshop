@@ -1,1 +1,6 @@
-export const sum = (a, b) => a + b;
+export const sum = (a, b) => {
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new Error("Invalid input");
+  }
+  return a + b;
+};
